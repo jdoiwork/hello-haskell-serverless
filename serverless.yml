@@ -1,3 +1,4 @@
+app: aws-node
 service: myservice
 
 provider:
