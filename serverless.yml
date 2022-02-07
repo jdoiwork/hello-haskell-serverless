@@ -1,0 +1,18 @@
+service: myservice
+
+provider:
+  name: aws
+  runtime: haskell
+
+functions:
+  myfunc:
+    handler: hello-haskell-serverless.hello-haskell-serverless-exe
+    # Here, mypackage is the Haskell package name and mypackage-exe is the
+    # executable name as defined in the Cabal file
+
+plugins:
+  - serverless-haskell
+
+# custom:
+#   haskell:
+#     docker: false

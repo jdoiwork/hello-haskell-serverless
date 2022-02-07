@@ -5,7 +5,9 @@ services:
     build:
       context: ./docker/dev
     volumes:
-      - "stack:/root/.stack"
-    
+      - "stack:/stack_root"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    environment:
+      - SLS_DEBUG=*
 volumes:
   stack:

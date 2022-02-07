@@ -1,0 +1,27 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdoiwork/hello-haskell-serverless.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdoiwork/hello-haskell-serverless/issues"
+  },
+  "homepage": "https://github.com/jdoiwork/hello-haskell-serverless#readme",
+  "dependencies": {
+    "serverless": "^3.1.1",
+    "serverless-haskell": "^0.12.6"
+  }
+}
