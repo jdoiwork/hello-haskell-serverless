@@ -7,7 +7,11 @@
     "test": "test"
   },
   "scripts": {
+    "test-local-plan-a": "npx sls invoke local -f myfunc -p json/plan-a.json",
+    "test-local-plan-b": "npx sls invoke local -f myfunc -p json/plan-b.json",
     "test-local-hello": "npx sls invoke local -f myfunc -p json/hello.json",
+    "test-plan-a": "npx sls invoke -f myfunc -p json/plan-a.json",
+    "test-plan-b": "npx sls invoke -f myfunc -p json/plan-b.json",
     "test-hello": "npx sls invoke -f myfunc -p json/hello.json",
     "deploy": "npx sls deploy",
     "test": "echo \"Error: no test specified\" && exit 1"

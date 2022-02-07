@@ -1,12 +1,11 @@
 module Main where
 
 import qualified Data.Aeson as Aeson
-
 import AWSLambda
 
 import Handlers
 
-main = lambdaMain helloHandler
+main = lambdaMain $ planHandler -- helloHandler
 
 handler :: Aeson.Value -> IO [Int]
 handler evt = do

@@ -26,6 +26,9 @@ source-repository head
 library
   exposed-modules:
       Handlers
+      Handlers.HelloHandler
+      Handlers.Plan
+      Handlers.PlanAHandler
   other-modules:
       Paths_hello_haskell_serverless
   hs-source-dirs:
