@@ -1,4 +1,5 @@
 .stack-work/
+.stack-work-sls/
 *~
 node_modules/
 .serverless/

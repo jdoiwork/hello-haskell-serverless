@@ -12,7 +12,11 @@ functions:
 
 plugins:
   - serverless-haskell
+  - haskell
+custom:
+  haskell:
+    stackBuildArgs:
+      - --work-dir 
+      - .stack-work-sls
 
-# custom:
-#   haskell:
 #     docker: false

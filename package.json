@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "test-hello": "npx sls invoke local -f myfunc -p json/hello.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +24,8 @@
   "dependencies": {
     "serverless": "^3.1.1",
     "serverless-haskell": "^0.12.6"
+  },
+  "devDependencies": {
+    "haskell": "^0.4.1"
   }
 }

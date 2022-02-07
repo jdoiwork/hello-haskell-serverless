@@ -4,7 +4,9 @@ import qualified Data.Aeson as Aeson
 
 import AWSLambda
 
-main = lambdaMain handler
+import Handlers
+
+main = lambdaMain helloHandler
 
 handler :: Aeson.Value -> IO [Int]
 handler evt = do
