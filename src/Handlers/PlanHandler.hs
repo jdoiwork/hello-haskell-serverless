@@ -3,7 +3,7 @@
 {-# LANGUAGE DeriveGeneric  #-}
 {-# LANGUAGE RecordWildCards  #-}
 
-module Handlers.PlanAHandler where
+module Handlers.PlanHandler where
 
 import Data.Text (Text)
 import GHC.Generics

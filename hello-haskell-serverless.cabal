@@ -28,7 +28,7 @@ library
       Handlers
       Handlers.HelloHandler
       Handlers.Plan
-      Handlers.PlanAHandler
+      Handlers.PlanHandler
   other-modules:
       Paths_hello_haskell_serverless
   hs-source-dirs:

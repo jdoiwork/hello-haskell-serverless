@@ -5,4 +5,4 @@ module Handlers (
 ) where
 
 import Handlers.HelloHandler
-import Handlers.PlanAHandler
+import Handlers.PlanHandler
