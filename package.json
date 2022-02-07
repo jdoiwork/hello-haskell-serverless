@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test-hello": "npx sls invoke local -f myfunc -p json/hello.json",
+    "test-local-hello": "npx sls invoke local -f myfunc -p json/hello.json",
+    "test-hello": "npx sls invoke -f myfunc -p json/hello.json",
+    "deploy": "npx sls deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

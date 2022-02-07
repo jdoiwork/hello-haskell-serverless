@@ -12,7 +12,7 @@ functions:
 
 plugins:
   - serverless-haskell
-  - haskell
+
 custom:
   haskell:
     stackBuildArgs:
